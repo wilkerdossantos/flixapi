@@ -5,11 +5,12 @@ NATIONALITY_CHOICES = (
     ('USA', 'Estados Unidos'),
     ('BRAZIL', 'Brasil'),
     ('UK', 'Reino Unido'),
-    ('CANADA', 'Canada'),
-    ('FRANCE', 'Francia'),
-    ('GERMANY', 'Alemania'),
-    ('ITALY', 'Italia'),
-    ('SPAIN', 'España'),
+    ('CANADA', 'Canadá'),
+    ('FRANCE', 'França'),
+    ('GERMANY', 'Alemanha'),
+    ('ITALY', 'Itália'),
+    ('SPAIN', 'Espanha'),
+    ('AUSTRALIA', 'Australia'),
 )
 
 
