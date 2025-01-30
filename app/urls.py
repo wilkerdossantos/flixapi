@@ -20,7 +20,7 @@ schema_view = get_schema_view(
 )
 
 urlpatterns = [
-    path('', RedirectView.as_view(url=reverse_lazy('schema-redoc')), name='index'),
+    path('', RedirectView.as_view(url=reverse_lazy('schema-swagger-ui')), name='index'),
     path('admin/', admin.site.urls),
 
     path('api/v1/', include('authentication.urls')),
